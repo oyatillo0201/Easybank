@@ -286,6 +286,7 @@ img {
 
 .promo__heading {
   margin: 0;
+  margin-bottom: 26px;
   padding: 0;
   font-style: normal;
   font-weight: 100;
@@ -297,4 +298,10 @@ img {
 }
 
 .promo__text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+line-height: 26px;
+letter-spacing: -0.25px;
+color: var(--text-color);
 }
