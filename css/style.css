@@ -105,6 +105,7 @@ img {
   padding-top: 18px;
   padding-bottom: 18px;
   background-color: var(--white-color);
+  z-index: 999;
 }
 .site-header__container {
   display: flex;
@@ -167,3 +168,131 @@ img {
 }
 
 
+/* HERO */
+.hero {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  background-color: var(--hero-bg-color);
+}
+
+.hero__container {
+  display: flex;
+  position: relative;
+}
+
+.hero__inner {
+  width: 100%;
+  max-width: 447px;
+}
+
+.hero__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: var(--text-heading);
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: var(--text-color);
+}
+
+.hero__img--wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.hero__bg {
+  position: absolute;
+  top: 0;
+  left:250px;
+  width: 1371px;
+  display: inline-block;
+  height: 956px;
+}
+
+
+/* PROMO */
+.promo {
+  padding-top: 96px;
+  padding-bottom: 94px;
+  background-color: var(--promo-bg-color);
+}
+.promo__container {
+}
+
+.promo__top {
+  width: 635px;
+  margin: 0;
+  margin-bottom: 72px;
+  padding: 0;
+}
+
+.promo__top--title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: var(--text-heading);
+}
+
+.promo__top--text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.promo__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.promo__item {
+  width: 255px;
+}
+
+.promo__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.promo__icon--wrapper {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  padding: 16px;
+  border-radius: 50%;
+  background-image: var(--linear-gradient);
+  margin-bottom: 40px;
+}
+
+.promo__heading {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: #2D314D;
+}
+.promo__text {
+}
