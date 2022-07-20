@@ -292,7 +292,9 @@ img {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: -0.428571px;
-  color: #2D314D;
+  color: var(--text-heading);
+  text-transform: capitalize;
 }
+
 .promo__text {
 }
