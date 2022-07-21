@@ -364,7 +364,8 @@ img {
   color: var(--text-color);
 }
 
-.info-card__heading {
+.info-card__link {
+  display: inline-block;
   margin: 0;
   margin-bottom: 8px;
   padding: 0;
@@ -374,6 +375,15 @@ img {
   line-height: 20px;
   letter-spacing: -0.285714px;
   color: var(--text-heading);
+  text-decoration: none;
+}
+
+.info-card__link:hover {
+  color: var(--green-color);
+}
+
+.info-card__link:active {
+  opacity: 0.6;
 }
 
 .info-card__text {
