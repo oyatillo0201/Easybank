@@ -173,6 +173,9 @@ img {
   padding-top: 170px;
   padding-bottom: 170px;
   background-color: var(--hero-bg-color);
+  background-image: url("../img/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: left 857px top -258px;
 }
 
 .hero__container {
@@ -212,13 +215,17 @@ img {
   width: 50%;
 }
 
-.hero__bg {
+.hero__bg-img {
+}
+
+.phone {
   position: absolute;
-  top: 0;
-  left:250px;
-  width: 1371px;
-  display: inline-block;
-  height: 956px;
+  top: -245px;
+  left: 414px;
+  width: 728px;
+  height: 899px;
+  display: block;
+
 }
 
 
@@ -227,8 +234,6 @@ img {
   padding-top: 96px;
   padding-bottom: 94px;
   background-color: var(--promo-bg-color);
-}
-.promo__container {
 }
 
 .promo__top {
@@ -312,10 +317,6 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: var(--hero-bg-color);
-}
-
-.article-card__container {
-
 }
 
 .article-card__title {
